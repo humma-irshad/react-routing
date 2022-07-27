@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+.signup {
+  margin: 4rem auto;
+  padding: 1.5rem;
+  max-width: 28rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+
+.signup h1 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+}
+
+.signup-content {
+  padding: 2.18rem;
+}
+
+.signup input {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.625rem 0.0625rem;
+  border: 0;
+  border-bottom: 1px solid grey;
+  outline: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.signup button {
+  width: 100%;
+  padding: 1.125rem;
+  margin-top: 1rem;
+  border: none;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: #2d3b55;
+  color: #fff;
+  letter-spacing: 0.2px;
+  outline: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.signup button:hover {
+  background: #d8d8d8;
+  color: #2d3b55;
+}
